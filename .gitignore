@@ -1,0 +1,53 @@
+# Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+arima_env
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Model files and large data files
+# *.pkl
+# *.h5git
+# *.joblib
+*.csv
+
+# Logs and outputs
+*.log
+logs/
+*.out
+*.bak
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# Jupyter Notebook metadata
+*.nbconvert.ipynb
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.swp
